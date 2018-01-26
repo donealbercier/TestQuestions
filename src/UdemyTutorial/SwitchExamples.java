@@ -2,6 +2,18 @@ package UdemyTutorial;
 
 import java.util.Scanner;
 
+class IceCream {
+
+    public void IceCream(String name, String description){
+
+    }
+
+    public String name;
+    public static String description;
+
+}
+
+
 public class SwitchExamples {
 
     static void printMenu(){

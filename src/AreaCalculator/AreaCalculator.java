@@ -16,12 +16,14 @@ public class AreaCalculator {
         boolean finished = false;
         while (!finished) {
             System.out.println(menu.menuString);
-            try {
+
                 int choice = menuChoice.nextInt();
-                if (choice == 0) {
-                    finished = true;
 
                     switch (choice) {
+                        case(0): {
+                            finished=true;
+                            break;
+                        }
                         case (1): {
                             System.out.print(menu.squareMenu);
                             double sideLength = side.nextDouble();
@@ -30,12 +32,23 @@ public class AreaCalculator {
                             break;
                         }
                         case (2): {
+                            System.out.println(menu.rectangleMenu);
+                            double sideLength=side.nextDouble();
+                            double sideWidth =side.nextDouble();
+                            Rectangle rec = new Rectangle(sideWidth,sideLength);
+                            System.out.println("The area is :"+rec.getArea());
+
+
+                        }
+                        case (3): {
+                            System.out.println(menu.circleMenu);
+                            double radius=side.nextDouble();
+                            Circle circle = new Circle(radius);
+                            System.out.println("The area is :"+circle.getArea());
                         }
                     }
-                }
-            } catch (InputMismatchException e) {
-                e.printStackTrace();
-            }
+
+
 
 
             System.out.print("\nDo you want to find another area(y/n):");
