@@ -28,11 +28,11 @@ public class StaticMethodsExamples {
         System.out.println(secondC.toString());
 
         System.out.println("firstClass adds 5");
-        firstC.changeStaticNumber(5);
+        ClassWithStatic.changeStaticNumber(5);
         System.out.println(firstC.toString());
 
         System.out.println("secondClass adds 40");
-        secondC.changeStaticNumber(40);
+        ClassWithStatic.changeStaticNumber(40);
         System.out.println(secondC.toString());
 
         System.out.println(firstC.toString());
