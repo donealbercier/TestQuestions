@@ -4,16 +4,8 @@
     <bookmark url="file://$PROJECT_DIR$/src/examples/ClassExamples/StaticMethodsExamples.java" line="6" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43362b6f-3c82-48b6-806c-cf0406ecc066" name="Default" comment="Practice of Java Basics via Examples">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/RecipeReader/FileReadingTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/RecipeReader/FileWriter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/RecipeReader/Ingredient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/RecipeReader/Recipe.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TestQuestions/RecipeReader/FileReadingExample.class" afterPath="$PROJECT_DIR$/out/production/TestQuestions/RecipeReader/FileReadingExample.class" />
+    <list default="true" id="43362b6f-3c82-48b6-806c-cf0406ecc066" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RecipeReader/FileReadingExample.java" afterPath="$PROJECT_DIR$/src/RecipeReader/FileReadingExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/examples/ClassExamples/ClassWithStatic.java" afterPath="$PROJECT_DIR$/src/examples/ClassExamples/ClassWithStatic.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/examples/ClassExamples/StaticMethodsExamples.java" afterPath="$PROJECT_DIR$/src/examples/ClassExamples/StaticMethodsExamples.java" />
     </list>
     <ignored path="TestQuestions.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -672,11 +664,19 @@
       <option name="project" value="LOCAL" />
       <updated>1514741383711</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First Revision of FileReading and File Writing">
+      <created>1517787265958</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1517787265958</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -687,7 +687,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.50417536" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2996707" sideWeight="0.49582464" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33260155" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33260155" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -746,8 +746,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Practice of Java Basics via Examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practice of Java Basics via Examples" />
+    <MESSAGE value="First Revision of FileReading and File Writing" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Revision of FileReading and File Writing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
