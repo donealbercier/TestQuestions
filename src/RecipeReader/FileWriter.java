@@ -15,7 +15,6 @@ public class FileWriter {
 
     void writeToFile(String fileName, List<String> list) throws IOException {
         Path file = Paths.get(fileName);
-        list.add(0, "\n ---------Instructions--------");
         Files.write(file, list, Charset.forName("UTF-8"));
         System.out.println(Files.size(file));
 

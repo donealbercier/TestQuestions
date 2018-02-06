@@ -37,7 +37,7 @@ public class SortingMethods {
     }
 
     public static void main(String[] args) {
-        int[] input = { 4, 2, 9, 6, 23, 10, 34, 0, 1 };
+        int[] input = { 4, 2, 9, 6, 23, 10, 3, 1, 0 };
         bubble_srt(input);
 
     }

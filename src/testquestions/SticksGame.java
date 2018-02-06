@@ -7,7 +7,7 @@ public class SticksGame {
 
     public static void main(String[] args) {
 
-        int palindromeNum = 123454321;
+        int palindromeNum = 12384321;
 
         String palindromeStr = Integer.toString(palindromeNum);
 

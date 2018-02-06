@@ -125,8 +125,40 @@ public class CounterLogic {
         }
     }
 
-     public static void main(String[] args){
-         System.out.println();
+    @Override
+    public String toString() {
+        return "CounterLogic{" +
+                "aCounter=" + aCounter +
+                ", bCounter=" + bCounter +
+                ", cCounter=" + cCounter +
+                ", dCounter=" + dCounter +
+                ", eCounter=" + eCounter +
+                ", fCounter=" + fCounter +
+                ", gCounter=" + gCounter +
+                ", hCounter=" + hCounter +
+                ", iCounter=" + iCounter +
+                ", jCounter=" + jCounter +
+                ", kCounter=" + kCounter +
+                ", lCounter=" + lCounter +
+                ", mCounter=" + mCounter +
+                ", nCounter=" + nCounter +
+                ", oCounter=" + oCounter +
+                ", pCounter=" + pCounter +
+                ", qCounter=" + qCounter +
+                ", rCounter=" + rCounter +
+                ", sCounter=" + sCounter +
+                ", tCounter=" + tCounter +
+                ", uCounter=" + uCounter +
+                ", vCounter=" + vCounter +
+                ", wCounter=" + wCounter +
+                ", xCounter=" + xCounter +
+                ", yCounter=" + yCounter +
+                ", zCounter=" + zCounter +
+                '}';
+    }
+
+    public static void main(String[] args){
+
 
      }
 

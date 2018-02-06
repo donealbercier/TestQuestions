@@ -7,7 +7,7 @@ public class PyramidDriver {
 
     public static void main(String[] args){
 
-        Pyramid fiveTier = new Pyramid(5);
+        Pyramid fiveTier = new Pyramid(86);
 
         fiveTier.printPyramid();
 

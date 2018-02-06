@@ -6,8 +6,8 @@ import java.util.List;
 public class Recipe {
     String recipeName;
     String description;
-   List Ingredients = new ArrayList();
-    List Instructions = new ArrayList();
+   ArrayList<String> Ingredients = new ArrayList<String>();
+    ArrayList<String> Instructions = new ArrayList<String>();
 
     //======= Getters and Setters =============================
     public String getRecipeName() {
@@ -26,8 +26,28 @@ public class Recipe {
         this.recipeName = recipeName;
     }
 
+    public ArrayList<String> printRecipe(){
+        ArrayList<String> recipe = new ArrayList<String>();
+        recipe.add("- Recipe -");
+        recipe.add(recipeName);
+        recipe.add("- Ingredients -");
+        for (int i = 0; i < Ingredients.size(); i++) {
+            recipe.add(Ingredients.get(i));
+
+        }
+        recipe.add("- Instructions -");
+        for (int i = 0; i < Instructions.size(); i++) {
+            recipe.add(Instructions.get(i));
+
+        }
+        return recipe;
+    }
 
   //===================================================================
+
+    void addName(String name){
+        recipeName = name;
+    }
 
     void addIngredient(String ingredient){
         Ingredients.add(ingredient);
@@ -50,11 +70,11 @@ public class Recipe {
         }
     }
 
-    public List getIngredients() {
+    public ArrayList<String> getIngredients() {
         return Ingredients;
     }
 
-    public List getInstructions() {
+    public ArrayList<String> getInstructions() {
         return Instructions;
     }
 //====== Constructors =========================================
@@ -63,6 +83,7 @@ public class Recipe {
     Recipe(String recipeName){
         this.recipeName=recipeName;
     }
+    Recipe(){}
 
 
 }
