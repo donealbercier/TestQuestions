@@ -11,41 +11,45 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class RecipeReader {
+public class RecipeReader implements FileHandler {
 
     //Class Variables
 
     static String fileLocationStart = "C:\\Users\\donea\\IdeaProjects\\TestQuestions\\src\\RecipeReader\\";
-
-
-    public static void createFile(String file) throws IOException {
-        //================== CREATE/DELETE FILE ===============================================================
-
-        Path createFile = Paths.get(fileLocationStart + file);
-
-        //If the file exists we delete it
-        // - otherwise we create it at the designated file path
-        if (!Files.exists(createFile)) {
-            Files.createFile(createFile);
-        }
-        //============================================================================================
-
-    }
-    public static void deleteFile(String file) throws IOException{
-
-        Path deleteFile = Paths.get(fileLocationStart+file);
-
-        if(Files.exists(deleteFile)){
-            Files.delete(deleteFile);
-        }
-
-    }
-    public static void writeToFile(String writeFile, ArrayList<String> information) throws IOException{
-        Path fileToWrite = Paths.get(fileLocationStart+writeFile);
-        if(Files.exists(fileToWrite)) {
-            Files.write(fileToWrite, information, Charset.forName("UTF-8"));
-        }
-    }
+//
+//
+//    public static boolean createFile(String file) throws IOException {
+//        //================== CREATE/DELETE FILE ===============================================================
+//
+//        Path createFile = Paths.get(fileLocationStart + file);
+//
+//        //If the file exists we delete it
+//        // - otherwise we create it at the designated file path
+//        if (!Files.exists(createFile)) {
+//            Files.createFile(createFile);
+//            return true;
+//        }
+//        else{
+//            return false;
+//        }
+//        //============================================================================================
+//
+//    }
+//    public static void deleteFile(String file) throws IOException{
+//
+//        Path deleteFile = Paths.get(fileLocationStart+file);
+//
+//        if(Files.exists(deleteFile)){
+//            Files.delete(deleteFile);
+//        }
+//
+//    }
+//    public static void writeToFile(String writeFile, ArrayList<String> information) throws IOException{
+//        Path fileToWrite = Paths.get(fileLocationStart+writeFile);
+//        if(Files.exists(fileToWrite)) {
+//            Files.write(fileToWrite, information, Charset.forName("UTF-8"));
+//        }
+//    }
 
     public static int[] findRecipeIndeces(ArrayList<String> fileContents) {
 
@@ -113,6 +117,7 @@ public class RecipeReader {
         //===========================================================================
 
     }
+
 
 
     public static ArrayList<String> readFile(String files) throws IOException {

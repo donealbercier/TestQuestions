@@ -5,24 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43362b6f-3c82-48b6-806c-cf0406ecc066" name="Default" comment="Practice of Java Basics via Examples">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/RecipeReader/FileReader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/RecipeReader/FileReaderTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/TestQuestions/RecipeReader/FileReadingExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/TestQuestions/RecipeReader/FileWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/TestQuestions/RecipeReader/RecipeReaderTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/RecipeReader/FileReadingExample.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/RecipeReader/FileWriter.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TestQuestions/RecipeReader/RecipeReader.class" afterPath="$PROJECT_DIR$/out/production/TestQuestions/RecipeReader/RecipeReader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TestQuestions/testquestions/PyramidDriver.class" afterPath="$PROJECT_DIR$/out/production/TestQuestions/testquestions/PyramidDriver.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/RecipeReader/FileHandler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TestQuestions/RecipeReader/test.txt" afterPath="$PROJECT_DIR$/out/production/TestQuestions/RecipeReader/test.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TestQuestions/RecipeReader/write_test.txt" afterPath="$PROJECT_DIR$/out/production/TestQuestions/RecipeReader/write_test.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RecipeReader/RecipeReader.java" afterPath="$PROJECT_DIR$/src/RecipeReader/RecipeReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RecipeReader/RecipeReaderTest.java" afterPath="$PROJECT_DIR$/src/RecipeReader/RecipeReaderTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RecipeReader/test.txt" afterPath="$PROJECT_DIR$/src/RecipeReader/test.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RecipeReader/write_test.txt" afterPath="$PROJECT_DIR$/src/RecipeReader/write_test.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testquestions/PyramidDriver.java" afterPath="$PROJECT_DIR$/src/testquestions/PyramidDriver.java" />
     </list>
     <ignored path="TestQuestions.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,17 +26,20 @@
     <SUITE FILE_PATH="coverage/TestQuestions$RecipeReaderTest_testRead.coverage" NAME="RecipeReaderTest.testRead Coverage Results" MODIFIED="1517950089635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>RecipeReader.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/TestQuestions$FileReaderTest.coverage" NAME="FileReaderTest Coverage Results" MODIFIED="1519845373515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/TestQuestions$FileReaderTest.coverage" NAME="FileReaderTest Coverage Results" MODIFIED="1519936835446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>RecipeReader.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/TestQuestions$FileReaderTest_readFileTest.coverage" NAME="FileReaderTest.readFileTest Coverage Results" MODIFIED="1519845710179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>RecipeReader.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/TestQuestions$RecipeReaderTest.coverage" NAME="RecipeReaderTest Coverage Results" MODIFIED="1519932651340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/TestQuestions$RecipeReaderTest.coverage" NAME="RecipeReaderTest Coverage Results" MODIFIED="1519936706605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>RecipeReader.FileUtility</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/TestQuestions$PigLatin.coverage" NAME="PigLatin Coverage Results" MODIFIED="1474398015206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>projects.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/TestQuestions$RecipeReader_in_TestQuestions.coverage" NAME="RecipeReader in TestQuestions Coverage Results" MODIFIED="1519936630247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>RecipeReader.FileUtility</FILTER>
     </SUITE>
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -111,25 +99,37 @@
       <file leaf-file-name="RecipeReader.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RecipeReader/RecipeReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="187" column="1" lean-forward="false" selection-start-line="187" selection-start-column="1" selection-end-line="187" selection-end-column="1" />
+            <state relative-caret-position="83">
+              <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4320#4401#0" expanded="false" />
-                <element signature="e#5360#5435#0" expanded="false" />
+                <element signature="e#4490#4571#0" expanded="false" />
+                <element signature="e#5530#5605#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileReader.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FileReader.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RecipeReader/FileReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1003">
-              <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+            <state relative-caret-position="170">
+              <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2437#2445#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileHandler.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/RecipeReader/FileHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1411">
+              <caret line="89" column="54" lean-forward="true" selection-start-line="89" selection-start-column="54" selection-end-line="89" selection-end-column="54" />
+              <folding>
+                <marker date="1520007966930" expanded="false" signature="2417:2425" ph="&lt;~&gt;" />
               </folding>
             </state>
           </provider>
@@ -163,8 +163,8 @@
       <file leaf-file-name="RecipeReaderTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RecipeReader/RecipeReaderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="43" column="34" lean-forward="false" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+            <state relative-caret-position="-512">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#387#440#0" expanded="false" />
@@ -172,16 +172,6 @@
                 <element signature="e#1934#1942#0" expanded="true" />
                 <element signature="e#2180#2188#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="write_test.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/RecipeReader/write_test.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -267,8 +257,9 @@
         <option value="$PROJECT_DIR$/src/RecipeReader/DocumentReader.java" />
         <option value="$PROJECT_DIR$/src/RecipeReader/FileReader.java" />
         <option value="$PROJECT_DIR$/src/RecipeReader/FileReaderTest.java" />
-        <option value="$PROJECT_DIR$/src/RecipeReader/RecipeReader.java" />
         <option value="$PROJECT_DIR$/src/RecipeReader/RecipeReaderTest.java" />
+        <option value="$PROJECT_DIR$/src/RecipeReader/RecipeReader.java" />
+        <option value="$PROJECT_DIR$/src/RecipeReader/FileHandler.java" />
       </list>
     </option>
   </component>
@@ -343,6 +334,9 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="RecipeReader" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="RecipeReader" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="groovy.util.GroovyTestCase" />
     </key>
@@ -359,7 +353,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RecipeReaderTest">
+  <component name="RunManager" selected="JUnit.FileReaderTest">
     <configuration name="FileReaderTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -385,7 +379,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="RecipeReaderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RecipeReaderTest" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="RecipeReader.FileUtility" />
@@ -397,11 +391,11 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="RecipeReader" />
       <option name="MAIN_CLASS_NAME" value="RecipeReader.RecipeReaderTest" />
-      <option name="METHOD_NAME" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -805,17 +799,16 @@
       <item index="2" class="java.lang.String" itemvalue="JUnit.FileReaderTest" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.RecipeReaderTest" />
       <item index="4" class="java.lang.String" itemvalue="JUnit.RecipeReaderTest.testFindFileMarkers" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.RecipeReaderTest.testSetRecipeInformation" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.RecipeReaderTest.testRead" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.RecipeReaderTest.testRead" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.RecipeReaderTest.testSetRecipeInformation" />
       <item index="7" class="java.lang.String" itemvalue="JUnit.RecipeReaderTest.testCreate" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.RecipeReaderTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.RecipeReaderTest.testCreate" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.RecipeReaderTest.testRead" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.RecipeReaderTest.testSetRecipeInformation" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.RecipeReaderTest.testFindFileMarkers" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.RecipeReaderTest.testCreate" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.RecipeReaderTest.testRead" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.RecipeReaderTest.testSetRecipeInformation" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.RecipeReaderTest.testFindFileMarkers" />
       </list>
     </recent_temporary>
   </component>
@@ -841,11 +834,11 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RecipeReaderTest - 2018.03.01 at 15h 18m 17s.xml">
-      <configuration name="RecipeReaderTest" configurationId="JUnit" />
+    <history-entry file="FileReaderTest - 2018.03.01 at 15h 40m 36s.xml">
+      <configuration name="FileReaderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RecipeReaderTest - 2018.03.01 at 15h 19m 20s.xml">
-      <configuration name="RecipeReaderTest" configurationId="JUnit" />
+    <history-entry file="RecipeReader - 2018.03.01 at 15h 40m 00s.xml">
+      <configuration name="RecipeReader" configurationId="JUnit" />
     </history-entry>
     <history-entry file="RecipeReaderTest - 2018.03.01 at 15h 20m 15s.xml">
       <configuration name="RecipeReaderTest" configurationId="JUnit" />
@@ -856,25 +849,24 @@
     <history-entry file="RecipeReaderTest - 2018.03.01 at 15h 22m 44s.xml">
       <configuration name="RecipeReaderTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RecipeReaderTest - 2018.03.01 at 15h 36m 04s.xml">
+      <configuration name="RecipeReaderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RecipeReaderTest - 2018.03.01 at 15h 36m 24s.xml">
+      <configuration name="RecipeReaderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RecipeReaderTest - 2018.03.01 at 15h 38m 27s.xml">
+      <configuration name="RecipeReaderTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="RecipeReaderTest_testCreate - 2018.03.01 at 15h 20m 09s.xml">
       <configuration name="RecipeReaderTest.testCreate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RecipeReaderTest_testRead - 2018.03.01 at 15h 20m 05s.xml">
-      <configuration name="RecipeReaderTest.testRead" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RecipeReaderTest_testSetRecipeInformation - 2018.03.01 at 15h 15m 29s.xml">
-      <configuration name="RecipeReaderTest.testSetRecipeInformation" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RecipeReaderTest_testSetRecipeInformation - 2018.03.01 at 15h 16m 00s.xml">
-      <configuration name="RecipeReaderTest.testSetRecipeInformation" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RecipeReaderTest_testSetRecipeInformation - 2018.03.01 at 15h 17m 21s.xml">
-      <configuration name="RecipeReaderTest.testSetRecipeInformation" configurationId="JUnit" />
+    <history-entry file="RecipeReader_in_TestQuestions - 2018.03.01 at 15h 37m 11s.xml">
+      <configuration name="RecipeReader in TestQuestions" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="210" y="1" width="1583" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -884,9 +876,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.50417536" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2996707" sideWeight="0.49582464" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33260155" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328956" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2996707" sideWeight="0.49582464" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33260155" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21602102" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -958,7 +950,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/projects/WordsInString.java" />
     <entry file="file://$PROJECT_DIR$/src/examples/EnhancedForExamples.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -1250,8 +1241,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/RecipeReader/RecipeReaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="43" column="34" lean-forward="false" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+        <state relative-caret-position="-512">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#387#440#0" expanded="false" />
@@ -1262,25 +1253,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RecipeReader/RecipeReader.java">
+    <entry file="file://$PROJECT_DIR$/src/RecipeReader/FileReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="187" column="1" lean-forward="false" selection-start-line="187" selection-start-column="1" selection-end-line="187" selection-end-column="1" />
+        <state relative-caret-position="170">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4320#4401#0" expanded="false" />
-            <element signature="e#5360#5435#0" expanded="false" />
+            <element signature="e#2437#2445#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RecipeReader/FileReader.java">
+    <entry file="file://$PROJECT_DIR$/src/RecipeReader/RecipeReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+        <state relative-caret-position="83">
+          <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2437#2445#0" expanded="true" />
+            <element signature="e#4490#4571#0" expanded="false" />
+            <element signature="e#5530#5605#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RecipeReader/FileHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1411">
+          <caret line="89" column="54" lean-forward="true" selection-start-line="89" selection-start-column="54" selection-end-line="89" selection-end-column="54" />
+          <folding>
+            <marker date="1520007966930" expanded="false" signature="2417:2425" ph="&lt;~&gt;" />
           </folding>
         </state>
       </provider>
