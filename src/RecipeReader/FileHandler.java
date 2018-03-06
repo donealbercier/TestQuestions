@@ -13,9 +13,8 @@ public interface FileHandler {
     //  -edit fileContents should not be held at the class Level
 
     //RootFileLocation prevents the need for the user to type the entire path
-    static String fileLocationStart = "C:\\Users\\donea\\IdeaProjects\\TestQuestions\\src\\RecipeReader\\";
 
-    default  boolean createFile(String file) throws IOException{
+    default  boolean createFile(String file, String fileLocationStart) throws IOException{
         //================== CREATE FILE ===============================================================
 
         Path createFile = Paths.get(fileLocationStart+file);
@@ -37,7 +36,7 @@ public interface FileHandler {
 
 
 
-    default  boolean deleteFile(String file) throws IOException{
+    default  boolean deleteFile(String file, String fileLocationStart) throws IOException{
         //================== DELETE FILE ===============================================================
 
         Path deleteFile = Paths.get(fileLocationStart+file);
@@ -54,7 +53,7 @@ public interface FileHandler {
 
     }
 
-    public default boolean writeToFile(String writeFile, ArrayList<String> information) throws IOException{
+    public default boolean writeToFile(String writeFile, ArrayList<String> information, String fileLocationStart) throws IOException{
         //================== WRITE TO FILE===========================================================
         Path fileToWrite = Paths.get(fileLocationStart+writeFile);
 

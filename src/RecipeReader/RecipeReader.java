@@ -14,8 +14,6 @@ import java.util.Scanner;
 public class RecipeReader implements FileHandler {
 
     //Class Variables
-
-    static String fileLocationStart = "C:\\Users\\donea\\IdeaProjects\\TestQuestions\\src\\RecipeReader\\";
 //
 //
 //    public static boolean createFile(String file) throws IOException {
@@ -120,7 +118,7 @@ public class RecipeReader implements FileHandler {
 
 
 
-    public static ArrayList<String> readFile(String files) throws IOException {
+    public static ArrayList<String> readFile(String fileLocationStart, String files) throws IOException {
 
         ArrayList<String> fileContents = new ArrayList<String>();
         ArrayList<String> printedRecipe = new ArrayList<String>();
@@ -132,6 +130,7 @@ public class RecipeReader implements FileHandler {
 
             //Creates a scanner object
             try (Scanner scanner = new Scanner(Paths.get(fileLocationStart + files), "UTF-8")) {
+
                 if (!Files.exists(Paths.get(fileLocationStart + files))) {
                     System.out.println("File Doesn't Exist");
                 }
@@ -171,19 +170,14 @@ public class RecipeReader implements FileHandler {
         return null;
     }
 
-    public static void changeFileStart(String filePath) {
+    public static void verifyFileStart(String fileLocationStart, String filePath) {
         Path dir = Paths.get(filePath);
 
         if (Files.isDirectory(dir)) {
             String filecheck = filePath.substring(filePath.length() - 1, filePath.length());
-            if (filecheck.equals("\\"))
-                fileLocationStart = filePath;
 
-            else {
-                filePath += "\\";
-                fileLocationStart = filePath;
-            }
         } else {
+
             System.out.println("Not accurate");
         }
 

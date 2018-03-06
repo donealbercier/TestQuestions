@@ -12,7 +12,10 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 
 public class RecipeReaderTest {
+    RecipeReader rr = new RecipeReader();
 
+
+    public String fileLocationStart = "C:\\Users\\donea\\IdeaProjects\\TestQuestions\\src\\RecipeReader\\";
     @Before
     public void setUp() throws IOException{
 
@@ -26,24 +29,17 @@ public class RecipeReaderTest {
 
     @Test
     public void testRead() throws IOException {
-        assertEquals("Thai Red Curry",RecipeReader.readFile("test.txt").get(1));
+        assertEquals("Thai Red Curry",RecipeReader.readFile(fileLocationStart,"test.txt").get(1));
 
     }
 
     @Test
     public void testCreate()throws IOException{
         Path created = Paths.get("C:\\Users\\donea\\IdeaProjects\\TestQuestions\\src\\RecipeReader\\create.txt");
-        RecipeReader.createFile("create.txt");
+        rr.createFile("create.txt", fileLocationStart);
         assertEquals(true,Files.exists(created));
     }
 
-    @Test
-    public void testChangeFileStart(){
-        RecipeReader.fileLocationStart="C:\\Users\\donea\\IdeaProjects\\TestQuestions\\src\\";
-        String testLocation  ="C:\\Users\\donea\\IdeaProjects\\TestQuestions\\src\\";
-        assertEquals(RecipeReader.fileLocationStart, testLocation);
-        RecipeReader.fileLocationStart="C:\\Users\\donea\\IdeaProjects\\TestQuestions\\src\\RecipeReader\\";
-    }
 
     @Test
     public void testFindFileMarkers(){
@@ -77,6 +73,6 @@ public class RecipeReaderTest {
 
     @After
     public void breakDown() throws IOException{
-       RecipeReader.deleteFile("create.txt");
+       rr.deleteFile("create.txt", fileLocationStart);
     }
 }
